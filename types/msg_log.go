@@ -8,7 +8,7 @@ import (
 
 // LogMessage for embedding into log message types
 type LogMessage struct {
-	Hostname  string `json:"timestamp,omitempty"`
+	Hostname  string `json:"hostname,omitempty"`
 	Timestamp string `json:"timestamp,omitempty"`
 }
 

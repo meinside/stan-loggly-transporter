@@ -1,0 +1,15 @@
+{
+	"stanClusterId": "stan-cluster-id",
+	"stanClientId": "stan-test-client-id",
+	"natsServers": [
+		"tls://localhost:4242",
+		"tls://localhost:4243"
+	],
+	"natsClientUsername": "USER",
+	"natsClientPasswd": "PASSWORD",
+	"natsClientCertPath": "../../../../certs/cert.pem",
+	"natsClientKeyPath": "../../../../certs/key.pem",
+	"natsRootCaPath": "../../../../certs/ca.pem",
+
+	"logSubject": "msg.for.loggly"
+}

@@ -1,0 +1,7 @@
+*.swp
+
+config.json
+sample/logger/config.json
+
+stan-loggly-transporter
+sample/logger/logger

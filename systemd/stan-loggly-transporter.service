@@ -1,0 +1,17 @@
+[Unit]
+Description=STAN-to-Loggly Log Transporter
+Wants=stan.service
+After=network.target syslog.target stan.service
+
+[Service]
+Type=simple
+User=some_user
+Group=some_user
+WorkingDirectory=/path/to/stan-loggly-transporter
+ExecStart=/path/to/stan-loggly-transporter/stan-loggly-transporter
+Restart=always
+RestartSec=5
+Environment=
+
+[Install]
+WantedBy=multi-user.target
